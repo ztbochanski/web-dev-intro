@@ -1,2 +1,3 @@
 # web-dev-intro
-example site for experimentation for web development
+
+   - *example site for experimentation for web development*
