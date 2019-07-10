@@ -10,7 +10,7 @@
 
    - Check out the [live](https://ztbochanski.github.io/web-dev-intro/) demo
 
-1. index.html
+1. [index.html](https://github.com/ztbochanski/web-dev-intro/blob/master/index.html)
 
 ## CSS Validation Images
 
