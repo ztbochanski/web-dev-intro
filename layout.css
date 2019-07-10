@@ -1,0 +1,86 @@
+/* 
+Zachary Bochanski
+2019.07.10
+Assessment 1
+This document provides syling for the layout of the html tags using classes
+*/
+
+/* make variables for color theme */
+:root {
+  --theme-color: #8bc34a;
+  --accent-color: #ff4081;
+  --bg-color: #efefef;
+  --pop-txt-color: #fff;
+  --txt-color: #757575;
+  --card-bg-color: #fbfbf8;
+}
+
+/* styling classes for the navigation bar, add this class to any list item to apply link styling for the specific list */
+.navigation_bar {
+    background: var(--theme-color);
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.navigation_link {
+    float: right;
+    flex-wrap: nowrap;
+    box-sizing: border-box;
+    padding: 14px 16px;
+}
+
+/* this controls the syling and position of the menu bar title */
+.header_bar_title {
+    float: left;
+    flex-wrap: nowrap;
+    box-sizing: border-box;
+    color: var(--pop-txt-color);
+    padding: 14px 16px;
+}
+
+/* main content layout styling here */
+.main_layout {
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 2em 2em 4em;
+}
+
+/* footer link styling */
+.footer_link {
+    float: left;
+    text-decoration: none;
+    padding: 14px 16px;
+}
+
+/* styling for copyright on footer */
+.copyright {
+    float: right;
+    flex-wrap: nowrap;
+    box-sizing: border-box;
+    color: var(--pop-txt-color);
+    padding: 14px 16px;
+}
+
+
+/* card class for making a div a card */
+.card {
+    display: flex;
+    flex-direction: column;
+    font-weight: 400;
+    height: auto;
+    overflow: hidden;
+    width: auto;
+    position: relative;
+    background: var(--card-bg-color);
+    border-radius: 6px;
+    box-sizing: border-box;
+    margin: 1em;
+}
+
+.card:hover {
+    border-bottom: 1px solid;
+}
+
+.card_content {
+    padding: 3em;
+}

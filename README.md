@@ -4,11 +4,13 @@
 
 ## Dependencies
 
-1. font awesome library (linked in head using cdn)
+1. font awesome library (linked in head using the [font awesome cdn](https://fontawesome.com/?from=io))
 
 ## Hosting
 
-check out the live demo
+### Check out the live demo
+
+1. index.html
 
 ## CSS Validation Images
 
