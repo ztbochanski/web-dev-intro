@@ -14,11 +14,11 @@
 
 ## CSS Validation Images
 
-1. ![main.css][main_css]
+1.
+![main.css][main_css]
 
-
-
-2. ![layout.css][layout_css]
+2.
+![layout.css][layout_css]
 
 
 [main_css]: https://github.com/ztbochanski/web-dev-intro/blob/master/images/main.png "main.css"
@@ -26,7 +26,10 @@
 
 ## HTML Validation Images
 
-1. index.html
+1.
+![index.html][index_html]
+
+[index_html]: https://github.com/ztbochanski/web-dev-intro/blob/master/images/index.png "index.html"
 
 ## Browsers Used
 
