@@ -14,9 +14,15 @@
 
 ## CSS Validation Images
 
-1. main.css
+1. ![main.css][main_css]
 
-2. layout.css
+
+
+2. ![layout.css][layout_css]
+
+
+[main_css]: https://github.com/ztbochanski/web-dev-intro/blob/master/images/main.png "main.css"
+[layout_css]: https://github.com/ztbochanski/web-dev-intro/blob/master/images/layout.png "layout.css"
 
 ## HTML Validation Images
 
