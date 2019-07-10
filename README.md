@@ -8,7 +8,7 @@
 
 ## Hosting
 
-### Check out the live demo
+   - Check out the [live](https://ztbochanski.github.io/web-dev-intro/) demo
 
 1. index.html
 
