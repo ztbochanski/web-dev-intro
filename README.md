@@ -14,10 +14,10 @@
 
 ## CSS Validation Images
 
-1.
+1. These errors are due to using variables to manage the design colors, please let me know if you have any solutions.
 ![main.css][main_css]
 
-2.
+2. Same errors with layout
 ![layout.css][layout_css]
 
 
@@ -34,6 +34,8 @@
 ## Browsers Used
 
 1. Chrome
+2. Firefox
+3. Safari
 
 ## Ancillary Files
 
