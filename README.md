@@ -10,8 +10,6 @@
 
    - Check out the [live](https://ztbochanski.github.io/web-dev-intro/) demo
 
-1. [index.html](https://github.com/ztbochanski/web-dev-intro/blob/master/index.html)
-
 ## CSS Validation Images
 
 1. These errors are due to using variables to manage the design colors, please let me know if you have any solutions.
@@ -59,4 +57,4 @@
 
 ## Ancillary Files
 
-*None*
+1. [images](https://github.com/ztbochanski/web-dev-intro/)
