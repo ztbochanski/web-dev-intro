@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<!--
+Zachary Bochanski
+2019.07.10
+This document demonstrates the use of html to structure a page and css to style it
+-->
+
+<!-- html tag encompessess whole page-->
+<html lang="en">
+    <!--  the head tag is for adding meta data to the page  -->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!--    This meta tag sets the initial zoom on the viewers screen to 1 on loading and recommended as a best practice    -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--    The title which gets shown on a tab in the browser    -->
+        <title>Agrotech- About Us</title>
+        <meta name="description" content="Indoor farming online manual.">
+        <!--    page styling    -->
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="layout.css">
+        <!--    Content Delivery Network for font awesome icon from Font Awesome (used for logo icon ) -->
+        <script src="https://kit.fontawesome.com/35d269c912.js"></script>
+
+    </head>
+    <!--  Body section  -->
+    <body>
+        <!--    ############################################################################################################    -->
+        <!--    HEADER    -->
+        <header>
+            <div class="header_bar_title">Agrotech <i class="fas fa-seedling"></i></div>
+        </header>
+        <!--    ############################################################################################################    -->
+        <!--    NAVIGATION    -->
+        <!--  Navigation section using a semantic tag  -->
+        <nav class="navigation_bar">
+        <ul>
+            <li><a class="navigation_link" href="index.html">Home</a></li>
+            <li><a class="navigation_link" href="services.html">Services</a></li>
+            <li><a class="navigation_link" href="gallery.html">Gallery</a></li>
+        </ul>
+        </nav>
+        <!--    ############################################################################################################    -->
+        <!--    CONTENT    -->
+        <section class="main_layout">
+        <!--    content here    -->
+        <div class="card">
+            <div class="card_content">
+            <h1>About Us</h1>
+            <h2>Where we started</h2>
+            <p>
+            <em>From outdoor to indoor farming</em>
+            Innovating the future of ag technology started with the frustraition of traditional farming methods in the United States and accross the glob where food from massive farms are transported thousands of miles to the end consumer. This is bad for the environment for a number of reasons. First, transportation costs drive up food prices and diesel trucking pollutes the planet. Second, food grown for mass production and transportation must be robust and is not grown for taste. It must be harvested early before it matures therefore the product is devoid of nutrients and tastes aweful. Growing indoors can prevent all this and provide extrememly energy efficient fresh vegtables in the midts of hudge city centers. Another benefit to indoors, is controlling the environment and lighting to produce maximum yeild, insect and pesticide free, less water usage up to 95% more efficeient than traditional outdoor ag.
+            </p>
+            <p>
+            The University of Colorado's recently conducted a long-term study to look at statewide pesticide exposure in connection with occurrence rates of Parkinson's disease and a significant correlation was revealed. Researchers tracked atrazine – a common pesticide used across the US – via groundwater records. Along these records, it was found that Parkinson's rates surged from 4 to 40%! [1]
+            </p>
+            <p>
+            A common theme you'll find with pesticides is that one will be developed, used extensively, damaging health effects will emerge, and then the scientists will say, "Oops, guess we goofed there, let's not use that one anymore." The problem, or one of the problems, is that pesticides tend to be persistent organic toxins, meaning they linger. Researchers at Washington State University conducted a study looking at Methoxychlor, a pesticide banned over ten years ago. They found that a person alive today could be suffering from kidney disease, ovarian and reproductive disorders, and obesity simply because their great ­grandparents were exposed. An exposure “drift” of disease up to four generations makes it quite apparent that chemical toxins are practically abundant in most people today. [1]
+            </p>
+            <p>
+            [1]https://www.globalhealingcenter.com/natural-health/5-shocking-facts-pesticides/
+            </p>
+            </div>
+        </div>
+        </section>
+        <!--    end of section content    -->
+        <!--    ############################################################################################################    -->
+        <!--    FOOTER    -->
+        <footer>
+            <a class="footer_link" href="index.html">Home</a>
+            <a class="footer_link" href="about_us.html">About Us</a>
+            <a class="footer_link" href="contact_us.html">Contact Us</a>
+            <span class="copyright">©<script>document.write(new Date().getFullYear())</script>, agrotech <i class="fas fa-seedling"></i></span>
+        </footer>
+    </body>
+</html>

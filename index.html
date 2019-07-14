@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- 
+<!--
 Zachary Bochanski
 FP3212 Assessment 1
 2019.07.10
@@ -22,7 +22,7 @@ This document demonstrates the use of html to structure a page and css to style 
         <link rel="stylesheet" href="layout.css">
         <!--    Content Delivery Network for font awesome icon from Font Awesome (used for logo icon ) -->
         <script src="https://kit.fontawesome.com/35d269c912.js"></script>
-        
+
     </head>
     <!--  Body section  -->
     <body>
@@ -36,16 +36,15 @@ This document demonstrates the use of html to structure a page and css to style 
         <!--  Navigation section using a semantic tag  -->
         <nav class="navigation_bar">
         <ul>
-            <li><a class="navigation_link" href="#Home">Home</a></li>
-            <li><a class="navigation_link" href="#">Link 1</a></li>
-            <li><a class="navigation_link" href="#">Link 2</a></li>
-            <li><a class="navigation_link" href="#">Link 3</a></li>
+            <li><a class="navigation_link" href="index.html">Home</a></li>
+            <li><a class="navigation_link" href="services.html">Services</a></li>
+            <li><a class="navigation_link" href="gallery.html">Gallery</a></li>
         </ul>
         </nav>
         <!--    ############################################################################################################    -->
         <!--    CONTENT    -->
         <section class="main_layout">
-        <article class="card">
+        <div class="card">
             <div class="card_content">
             <h1>Indoor Farming</h1>
             <h2>Grow food with less energy and water</h2>
@@ -54,22 +53,29 @@ This document demonstrates the use of html to structure a page and css to style 
             The most delicious varieties, pesticide free, grown organically indoors.
             </p>
             </div>
-        </article>
-        <article class="card">
+        </div>
+        <div class="card">
             <div class="card_content">
             <h1>Mission</h1>
             <h2>Fresh, accessible to all</h2>
             <p>Provide the world with fresh produce in order to create a healthier planet.</p>
             </div>
-        </article>
+        </div>
+        <div class="card">
+            <div class="card_content">
+            <h1>Call to action</h1>
+            <h2>From seed to smile</h2>
+            <p>By the end of 2035 we aim to have grow facilities in every major population center in the world and full support of indepenent farmers using our systems. Profit is not the goal, giving everyone healthy nutrients is what we want our technolgy is open source an available to anyone providing it is not used to make profit, legal agreements are binding, all technology is patented</p>
+            </div>
+        </div>
         </section>
         <!--    end of section content    -->
         <!--    ############################################################################################################    -->
         <!--    FOOTER    -->
         <footer>
-            <a class="footer_link" href="#home">Home</a>
-            <a class="footer_link" href="#about">About</a>
-            <a class="footer_link" href="#contact">Contact</a>
+            <a class="footer_link" href="index.html">Home</a>
+            <a class="footer_link" href="about_us.html">About Us</a>
+            <a class="footer_link" href="contact_us.html">Contact Us</a>
             <span class="copyright">©<script>document.write(new Date().getFullYear())</script>, agrotech <i class="fas fa-seedling"></i></span>
         </footer>
     </body>

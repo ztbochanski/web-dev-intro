@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<!--
+Zachary Bochanski
+2019.07.10
+This document demonstrates the use of html to structure a page and css to style it
+-->
+
+<!-- html tag encompessess whole page-->
+<html lang="en">
+    <!--  the head tag is for adding meta data to the page  -->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!--    This meta tag sets the initial zoom on the viewers screen to 1 on loading and recommended as a best practice    -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--    The title which gets shown on a tab in the browser    -->
+        <title>Agrotech- Services</title>
+        <meta name="description" content="Indoor farming online manual.">
+        <!--    page styling    -->
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="layout.css">
+        <!--    Content Delivery Network for font awesome icon from Font Awesome (used for logo icon ) -->
+        <script src="https://kit.fontawesome.com/35d269c912.js"></script>
+
+    </head>
+    <!--  Body section  -->
+    <body>
+        <!--    ############################################################################################################    -->
+        <!--    HEADER    -->
+        <header>
+            <div class="header_bar_title">Agrotech <i class="fas fa-seedling"></i></div>
+        </header>
+        <!--    ############################################################################################################    -->
+        <!--    NAVIGATION    -->
+        <!--  Navigation section using a semantic tag  -->
+        <nav class="navigation_bar">
+        <ul>
+            <li><a class="navigation_link" href="index.html">Home</a></li>
+            <li><a class="navigation_link" href="services.html">Services</a></li>
+            <li><a class="navigation_link" href="gallery.html">Gallery</a></li>
+        </ul>
+        </nav>
+        <!--    ############################################################################################################    -->
+        <!--    CONTENT    -->
+        <section class="main_layout">
+        <!--    content here    -->
+        <div class="card">
+            <div class="card_content">
+            <h1>Our Services</h1>
+            <table class="data_table">
+              <thead>
+                <tr>
+                  <th>Material</th>
+                  <th>Quantity</th>
+                  <th>Price</th>
+                  <th>Description</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Grow Walls</td>
+                  <td>1</td>
+                  <td>$500</td>
+                  <td>Walls for indepentent farm start-ups, for towers</td>
+                </tr>
+                <tr>
+                  <td>Towers</td>
+                  <td>10</td>
+                  <td>$250</td>
+                  <td>Towers come in packs of ten, fit perfectly in any wall</td>
+                </tr>
+                <tr>
+                  <td>School Systems</td>
+                  <td>20</td>
+                  <td>$450</td>
+                  <td>Educational system everything included</td>
+                </tr>
+                <tr>
+                  <td>Feed Hose</td>
+                  <td>1</td>
+                  <td>$5</td>
+                  <td>Tower water feed adapter</td>
+                </tr>
+                <tr>
+                  <td>Light bars</td>
+                  <td>10</td>
+                  <td>$1000</td>
+                  <td>Light bar kit for towers</td>
+                </tr>
+                <tr>
+                  <td>HVAC cylinders</td>
+                  <td>10</td>
+                  <td>$200</td>
+                  <td>ventilation for each tower</td>
+                </tr>
+                <tr>
+                  <td>PH control</td>
+                  <td>1</td>
+                  <td>$25</td>
+                  <td>PH up and PH down</td>
+                </tr>
+                <tr>
+                  <td>Nutrients</td>
+                  <td>1</td>
+                  <td>$30</td>
+                  <td>All neccessary nutrients for the healthiest</td>
+                </tr>
+                <tr>
+                  <td>Seeds</td>
+                  <td>1</td>
+                  <td>$2.50</td>
+                  <td>Heritage seeds</td>
+                </tr>
+                <tr>
+                  <td>Water Tank</td>
+                  <td>1</td>
+                  <td>$80</td>
+                  <td>90 liter water tank</td>
+                </tr>
+                <tr>
+                  <td>Nutrient Tank</td>
+                  <td>1</td>
+                  <td>$20</td>
+                  <td>30 liter aux tank</td>
+                </tr>
+                <tr>
+                  <td>Grow Link controller</td>
+                  <td>1</td>
+                  <td>$5600</td>
+                  <td>auto-grow controller, nutrient doser, light, ph</td>
+                </tr>
+              </tbody>
+            </table>
+            </div>
+        </div>
+
+        </section>
+        <!--    end of section content    -->
+        <!--    ############################################################################################################    -->
+        <!--    FOOTER    -->
+        <footer>
+            <a class="footer_link" href="index.html">Home</a>
+            <a class="footer_link" href="about_us.html">About Us</a>
+            <a class="footer_link" href="contact_us.html">Contact Us</a>
+            <span class="copyright">©<script>document.write(new Date().getFullYear())</script>, agrotech <i class="fas fa-seedling"></i></span>
+        </footer>
+    </body>
+</html>

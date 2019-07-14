@@ -21,15 +21,35 @@
 ![layout.css][layout_css]
 
 
-[main_css]: https://github.com/ztbochanski/web-dev-intro/blob/master/images/main.png "main.css"
-[layout_css]: https://github.com/ztbochanski/web-dev-intro/blob/master/images/layout.png "layout.css"
+[main_css]: https://github.com/ztbochanski/web-dev-intro/blob/master/images/a2_validation/main.png "main.css"
+[layout_css]: https://github.com/ztbochanski/web-dev-intro/blob/master/images/a2_validation/layout.png "layout.css"
 
 ## HTML Validation Images
 
 1.
 ![index.html][index_html]
 
-[index_html]: https://github.com/ztbochanski/web-dev-intro/blob/master/images/index.png "index.html"
+[index_html]: https://github.com/ztbochanski/web-dev-intro/blob/master/images/a2_validation/index.png "index.html"
+
+2.
+![services.html][services_html]
+
+[services_html]: https://github.com/ztbochanski/web-dev-intro/blob/master/images/a2_validation/services.png "services.html"
+
+3.
+![gallery.html][gallery_html]
+
+[gallery_html]: https://github.com/ztbochanski/web-dev-intro/blob/master/images/a2_validation/gallery.png "gallery.html"
+
+4.
+![about_us.html][about_us_html]
+
+[about_us_html]: https://github.com/ztbochanski/web-dev-intro/blob/master/images/a2_validation/about_us.png "about_us.html"
+
+5.
+![contact_us.html][contact_us_html]
+
+[contact_us_html]: https://github.com/ztbochanski/web-dev-intro/blob/master/images/a2_validation/contact_us.png "contact_us.html"
 
 ## Browsers Used
 

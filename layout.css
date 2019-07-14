@@ -84,3 +84,45 @@ This document provides syling for the layout of the html tags using classes
 .card_content {
     padding: 3em;
 }
+
+/* custom table classes */
+.data_table {
+    position: relative;
+    border-collapse: collapse;
+    white-space: nowrap;
+    font-size: $data-table-font-size;
+}
+
+/* grid container system for gallery */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+/* css for column class using flexbox*/
+.column {
+  flex: 30%;
+  max-width: 30%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+/* Using media queries to adjust colmumn to 2 when screen size gets to a max width of 800px */
+@media (max-width: 800px) {
+  .column {
+    flex: 45%;
+    max-width: 50%;
+  }
+}
+
+/* Another media quieries for images to be 100% of the screen and 1 column when the screen size is 600px */
+@media (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}

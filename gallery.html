@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<!--
+Zachary Bochanski
+2019.07.10
+This document demonstrates the use of html to structure a page and css to style it
+-->
+
+<!-- html tag encompessess whole page-->
+<html lang="en">
+    <!--  the head tag is for adding meta data to the page  -->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!--    This meta tag sets the initial zoom on the viewers screen to 1 on loading and recommended as a best practice    -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--    The title which gets shown on a tab in the browser    -->
+        <title>Agrotech- Gallery</title>
+        <meta name="description" content="Indoor farming online manual.">
+        <!--    page styling    -->
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="layout.css">
+        <!--    Content Delivery Network for font awesome icon from Font Awesome (used for logo icon ) -->
+        <script src="https://kit.fontawesome.com/35d269c912.js"></script>
+
+    </head>
+    <!--  Body section  -->
+    <body>
+        <!--    ############################################################################################################    -->
+        <!--    HEADER    -->
+        <header>
+            <div class="header_bar_title">Agrotech <i class="fas fa-seedling"></i></div>
+        </header>
+        <!--    ############################################################################################################    -->
+        <!--    NAVIGATION    -->
+        <!--  Navigation section using a semantic tag  -->
+        <nav class="navigation_bar">
+        <ul>
+            <li><a class="navigation_link" href="index.html">Home</a></li>
+            <li><a class="navigation_link" href="services.html">Services</a></li>
+            <li><a class="navigation_link" href="gallery.html">Gallery</a></li>
+        </ul>
+        </nav>
+        <!--    ############################################################################################################    -->
+        <!--    CONTENT    -->
+        <section class="main_layout">
+        <!--    content here    -->
+        <div class="card">
+            <div class="card_content">
+            <h1>Gallery</h1>
+                <div class="row">
+                  <div class="column">
+                    <img src="/images/gallery/1.jpg" alt="greens" style="width:100%">
+                    <img src="/images/gallery/2.jpg" alt="greens" style="width:100%">
+                    <img src="/images/gallery/3.jpg" alt="greens" style="width:100%">
+                    <img src="/images/gallery/11.jpg" alt="greens" style="width:100%">
+                    <img src="/images/gallery/12.jpg" alt="greens" style="width:100%">
+                  </div>
+
+                  <div class="column">
+                    <img src="/images/gallery/4.jpg" alt="greens" style="width:100%">
+                    <img src="/images/gallery/5.jpg" alt="greens" style="width:100%">
+                    <img src="/images/gallery/6.jpg" alt="greens" style="width:100%">
+                    <img src="/images/gallery/13.jpg" alt="greens" style="width:100%">
+                  </div>
+
+                  <div class="column">
+                    <img src="/images/gallery/7.jpg" alt="greens" style="width:100%">
+                    <img src="/images/gallery/8.jpg" alt="greens" style="width:100%">
+                    <img src="/images/gallery/9.jpg" alt="greens" style="width:100%">
+                    <img src="/images/gallery/10.jpg" alt="greens" style="width:100%">
+                    <img src="/images/gallery/14.jpg" alt="greens" style="width:100%">
+                  </div>
+                </div>
+            </div>
+        </div>
+        </section>
+        <!--    end of section content    -->
+        <!--    ############################################################################################################    -->
+        <!--    FOOTER    -->
+        <footer>
+            <a class="footer_link" href="index.html">Home</a>
+            <a class="footer_link" href="about_us.html">About Us</a>
+            <a class="footer_link" href="contact_us.html">Contact Us</a>
+            <span class="copyright">©<script>document.write(new Date().getFullYear())</script>, agrotech <i class="fas fa-seedling"></i></span>
+        </footer>
+    </body>
+</html>
