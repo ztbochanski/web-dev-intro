@@ -57,4 +57,4 @@
 
 ## Ancillary Files
 
-1. [images](https://github.com/ztbochanski/web-dev-intro/)
+1. [images](https://github.com/ztbochanski/web-dev-intro/tree/master/images)
