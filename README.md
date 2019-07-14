@@ -27,7 +27,7 @@
 1.
 ![index.html][index_html]
 
-[index_html]: https://github.com/ztbochanski/web-dev-intro/blob/master/images/a2_validation/index.png "index.html"
+[index_html]: https://github.com/ztbochanski/web-dev-intro/blob/master/images/a2_validation/%20index.png "index.html"
 
 2.
 ![services.html][services_html]
